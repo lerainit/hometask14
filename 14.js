@@ -1,7 +1,5 @@
 const colorButton = document.querySelector('.color_theme');
 
-//localStorage.clear()
-
 style = document.querySelector('link:nth-child(7)')
 
 
