@@ -11,11 +11,11 @@ const setDarkTheme = () => {
 	
 	localStorage.setItem('style', './img/color_theme.css')
 
-	if (localStorage.getItem('style') === './img/color_theme.css') {
+	//if (localStorage.getItem('style') === './img/color_theme.css') {
 
 
 		colorButton.removeEventListener('click', setDarkTheme)
-	}
+	//}
 
 	colorButton.addEventListener('click', setInitialTheme)
 }
@@ -25,9 +25,9 @@ const setInitialTheme = () => {
 	style.setAttribute('href', './img/hometask3.css')
 	localStorage.setItem('style', './img/hometask3.css')
 
-	if (localStorage.getItem('style') === './img/hometask3.css') {
+	//if (localStorage.getItem('style') === './img/hometask3.css') {
 		colorButton.removeEventListener('click', setInitialTheme)
-         }
+        // }
 
 	colorButton.addEventListener('click', setDarkTheme)
 }
